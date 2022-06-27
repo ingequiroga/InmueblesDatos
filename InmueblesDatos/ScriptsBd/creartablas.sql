@@ -3,7 +3,7 @@ create database Inmuebles
 CREATE TABLE `inmuebles`.`usuario` (
   `idUsuario` INT NOT NULL AUTO_INCREMENT,
   `Email` VARCHAR(80) NOT NULL,
-  `Pass` VARCHAR(45) NOT NULL,
+  `Pass` VARCHAR(100) NOT NULL,
   `IdPersona` INT NOT NULL,
   `IdRol` INT NOT NULL,
   PRIMARY KEY (`idUsuario`));
