@@ -1,10 +1,10 @@
 select * from tb_tab_subetapas;
 
-INSERT INTO tb_tab_subetapas (`Descripcion`) VALUES ('Propuesta de Compra');
+INSERT INTO tb_tab_subetapas (`Descripcion`) VALUES ('Propuesta de Compra',1);
 
-INSERT INTO tb_tab_subetapas (`Descripcion`) VALUES ('Referencia de Pago');
-INSERT INTO tb_tab_subetapas (`Descripcion`) VALUES ('Expediente');
-INSERT INTO tb_tab_subetapas (`Descripcion`) VALUES ('Pago');
-INSERT INTO tb_tab_subetapas (`Descripcion`) VALUES ('Firma de cesión');
-INSERT INTO tb_tab_subetapas (`Descripcion`) VALUES ('Recuperacion extra Judicial');
-INSERT INTO tb_tab_subetapas (`Descripcion`) VALUES ('Contrato privado');
+INSERT INTO tb_tab_subetapas (`Descripcion`,`IdProceso`) VALUES ('Referencia de Pago',1);
+INSERT INTO tb_tab_subetapas (`Descripcion`,`IdProceso`) VALUES ('Expediente',1);
+INSERT INTO tb_tab_subetapas (`Descripcion`,`IdProceso`) VALUES ('Pago',1);
+INSERT INTO tb_tab_subetapas (`Descripcion`,`IdProceso`) VALUES ('Firma de cesión',1);
+INSERT INTO tb_tab_subetapas (`Descripcion`,`IdProceso`) VALUES ('Recuperacion extra Judicial',1);
+INSERT INTO tb_tab_subetapas (`Descripcion`,`IdProceso`) VALUES ('Contrato privado',1);
